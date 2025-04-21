@@ -31,6 +31,8 @@ class MudiExperience {
                 response = await request.json();
             this.dataServer = response.data[0];
 
+
+
         } catch (error) { console.error(`Mudi Error:\n${error}`) }
 
     };
@@ -105,7 +107,10 @@ class MudiExperience {
         fragment.appendChild(containerBtns)
 
         /** Add DOM */
-        this.fatherContainer.appendChild(fragment)
+        setTimeout(() => {
+            this.fatherContainer.appendChild(fragment)
+        }, 1000)
+
     };
 
     /** Create Modal ✔️ */
@@ -316,7 +321,7 @@ class MudiExperience {
         /** Create Styles */
         this.createStyles();
         /** Create Buttons */
-        setTimeout( this.createBtns, 1000);
+        this.createBtns()
 
     };
 
