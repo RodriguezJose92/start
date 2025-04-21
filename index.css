@@ -288,4 +288,9 @@ body,
         transition: all .2s ease-in-out;
     }
 
+    .imgBtnAR {
+        width: 160px;
+        height: 60px;
+    }
+
 }
