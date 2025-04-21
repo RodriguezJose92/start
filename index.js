@@ -339,4 +339,4 @@ setTimeout(() => {
     } else {
         console.error('Error: No se pudo encontrar el elemento SKU.');
     }
-}, 1500);
+}, 2500);
