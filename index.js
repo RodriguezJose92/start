@@ -322,7 +322,7 @@ class MudiExperience {
         this.createStyles();
         /** Create Buttons */
         this.createBtns()
-
+        this.sendEventViewer()
     };
 
 };
