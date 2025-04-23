@@ -171,28 +171,28 @@ class MudiExperience {
     
                             <div class="titleContainer">
                                 <div class="iconTitle">
-                                    <img class="stepMudi step1" src="https://cdn.jsdelivr.net/gh/RodriguezJose92/start@latest/assets/step3.webp">
+                                    <img class="stepMudi step1" src="https://viewer.mudi.com.co/implementations/assets/step3.webp">
                                 </div>
                                 <p class="textInfoMudi">Apunta el teléfono al piso.</p>
                             </div>
     
                             <div class="titleContainer">
                                 <div class="iconTitle">
-                                    <img class="stepMudi step2" src="https://cdn.jsdelivr.net/gh/RodriguezJose92/start@latest/assets/step4.webp">
+                                    <img class="stepMudi step2" src="https://viewer.mudi.com.co/implementations/assets/step4.webp">
                                 </div>
                                 <p class="textInfoMudi">Desplaza para visualizar.</p>
                             </div>
     
                             <div class="titleContainer">
                                 <div class="iconTitle">
-                                    <img class="stepMudi step3" src="https://cdn.jsdelivr.net/gh/RodriguezJose92/start@latest/assets/step2.webp">
+                                    <img class="stepMudi step3" src="https://viewer.mudi.com.co/implementations/assets/step2.webp">
                                 </div>
                                 <p class="textInfoMudi">Amplia y detalla el producto.</p>
                             </div>
     
                             <div class="titleContainer">
                                 <div class="iconTitle">
-                                    <img class="stepMudi step4" src="https://cdn.jsdelivr.net/gh/RodriguezJose92/start@latest/assets/step1.webp">
+                                    <img class="stepMudi step4" src="https://viewer.mudi.com.co/implementations/assets/step1.webp">
                                 </div>
                                 <p class="textInfoMudi">Toca dos veces para restablecer.</p>
                             </div>
