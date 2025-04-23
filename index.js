@@ -278,8 +278,8 @@ class MudiExperience {
             event: `Evento de interaccion ${eventName}`,
             valorMudi: 1,
             sku: this.skuNumber,
-            category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
-            subCategory: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[2].children[0].innerHTML,
+            // category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
+            // subCategory: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[2].children[0].innerHTML,
             sistemaOperativo: OSdevice
         })
     };
@@ -296,8 +296,8 @@ class MudiExperience {
             event: `visualizacion_botones`,
             valorMudi: 1,
             sku: this.skuNumber,
-            category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
-            subCategory: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[2].children[0].innerHTML,
+            // category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
+            // subCategory: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[2].children[0].innerHTML,
             sistemaOperativo: OSdevice
         })
     };
