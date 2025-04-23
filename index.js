@@ -101,7 +101,7 @@ class MudiExperience {
 
         containerBtns.querySelector('#img3DBtn').addEventListener('click', () => {
             this.createModal();
-            //this.sendEventInteraction('3D');
+            this.sendEventInteraction('3D');
         });
 
         fragment.appendChild(containerBtns)
@@ -227,7 +227,7 @@ class MudiExperience {
             else {
                 window.open(`${this.dataServer.URL_AR}`, "_BLANK");
             }
-            // flagAR && this.sendEventInteraction('AR')
+            flagAR && this.sendEventInteraction('AR')
         });
 
         /** Verify Style Bttn AR  */
@@ -293,7 +293,7 @@ class MudiExperience {
         else OSdevice = 'DESK';
 
         window.dataLayer && dataLayer.push({
-            event: `visualizacion_botones`,
+            event: `visualizacion botones`,
             valorMudi: 1,
             sku: this.skuNumber,
             // category: document.body.querySelector('.Breadcrumbs-module_breadcrumb__3lLwJ').children[1].children[0].innerHTML,
@@ -321,8 +321,8 @@ class MudiExperience {
         /** Create Styles */
         this.createStyles();
         /** Create Buttons */
-        this.createBtns()
-        this.sendEventViewer()
+        this.createBtns();
+        this.sendEventViewer();
     };
 
 };
